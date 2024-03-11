@@ -207,8 +207,8 @@
             <value name="primitiveType">4</value>
             <value name="lexRep">0</value>
           </record>
-          <record name="totalDigits" javaclass="com.wm.util.Values">
-            <record name="FacetTDCValue" javaclass="com.wm.util.Values">
+          <record name="fractionDigits" javaclass="com.wm.util.Values">
+            <record name="FacetFDCValue" javaclass="com.wm.util.Values">
               <value name="cDecimalValue">2</value>
             </record>
             <value name="facetFixed">false</value>
@@ -248,6 +248,7 @@
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
+        <number name="protobufKey" type="Integer">5</number>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -318,6 +319,7 @@
         <value name="nillable">false</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
+        <number name="protobufKey" type="Integer">6</number>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -337,6 +339,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="is_soap_array_encoding_used">false</value>
+        <number name="protobufKey" type="Integer">7</number>
         <array name="rec_fields" type="record" depth="1">
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
@@ -367,6 +370,7 @@
             <value name="nillable">false</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
+            <number name="protobufKey" type="Integer">1</number>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
@@ -386,6 +390,7 @@
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
             <value name="is_soap_array_encoding_used">false</value>
+            <number name="protobufKey" type="Integer">2</number>
             <array name="rec_fields" type="record" depth="1">
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
@@ -416,6 +421,7 @@
                 <value name="nillable">false</value>
                 <value name="form_qualified">false</value>
                 <value name="is_global">false</value>
+                <number name="protobufKey" type="Integer">1</number>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
@@ -447,16 +453,20 @@
                 <value name="nillable">true</value>
                 <value name="form_qualified">false</value>
                 <value name="is_global">false</value>
+                <number name="protobufKey" type="Integer">2</number>
               </record>
             </array>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
+            <number name="lastProtobufKey" type="Integer">2</number>
           </record>
         </array>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
+        <number name="lastProtobufKey" type="Integer">2</number>
       </record>
     </array>
     <value name="modifiable">true</value>
+    <number name="lastProtobufKey" type="Integer">7</number>
   </record>
 </Values>
