@@ -4,12 +4,12 @@
 
   <!-- nodes -->
 
-<BRANCH TIMEOUT="" SWITCH="/n">
+<BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<SEQUENCE NAME="0" TIMEOUT="" EXIT-ON="FAILURE">
+<SEQUENCE NAME="%n%==0" TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -137,7 +137,7 @@
 </MAP>
 </SEQUENCE>
 
-<SEQUENCE NAME="1" TIMEOUT="" EXIT-ON="FAILURE">
+<SEQUENCE NAME="%n%==1" TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
