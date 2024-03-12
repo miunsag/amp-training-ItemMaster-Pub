@@ -13,6 +13,8 @@ repeated  Amplifon_ERP_ItemMasterPublish_doc_ItemMasterCanonical_vendors vendors
 }
 message Amplifon_ERP_ItemMasterPublish_doc_ItemMasterCanonical_vendors {
 optional  string vendorPartyId = 1;
+optional  string qualificationDate = 3;
+optional  string lastDeliveryTimestamp = 4;
 repeated  Amplifon_ERP_ItemMasterPublish_doc_ItemMasterCanonical_vendors_supplyProperties supplyProperties = 2;
 }
 message Amplifon_ERP_ItemMasterPublish_doc_ItemMasterCanonical_vendors_supplyProperties {

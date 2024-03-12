@@ -74,9 +74,13 @@
       <array name="vendors" type="record" depth="1">
         <record javaclass="com.wm.util.Values">
           <value name="vendorPartyId">1</value>
+          <value name="qualificationDate">2021-09-14</value>
+          <value name="lastDeliveryTimestamp">2024-03-01T10:00:00Z</value>
         </record>
         <record javaclass="com.wm.util.Values">
           <value name="vendorPartyId">2</value>
+          <value name="qualificationDate">2020-08-02</value>
+          <value name="lastDeliveryTimestamp">2024-02-01T10:00:00Z</value>
           <array name="supplyProperties" type="record" depth="1">
             <record javaclass="com.wm.util.Values">
               <value name="supplyPropertyName">color</value>
