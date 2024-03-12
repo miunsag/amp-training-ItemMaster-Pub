@@ -36,7 +36,7 @@ public final class transformers
 		
 		// pipeline
 		IDataCursor pipelineCursor = pipeline.getCursor();
-		boolean exists=pipelineCursor.first("date");
+		boolean exists = pipelineCursor.first("date");
 		if (exists) date = pipelineCursor.getValue();
 		pipelineCursor.destroy();
 		
@@ -72,7 +72,7 @@ public final class transformers
 		
 		// pipeline
 		IDataCursor pipelineCursor = pipeline.getCursor();
-		boolean exists=pipelineCursor.first("date");
+		boolean exists = pipelineCursor.first("date");
 		if (exists) date = pipelineCursor.getValue();
 		pipelineCursor.destroy();
 		
