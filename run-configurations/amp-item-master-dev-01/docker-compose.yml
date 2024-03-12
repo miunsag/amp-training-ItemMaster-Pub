@@ -12,6 +12,8 @@ services:
       # Our Code
       - ../../code/is-packages/AmpItemMasterPub/:${GUEST_IS_HOME}/packages/AmpItemMasterPub/
       - ../../code/is-packages/AmpItemMasterPubLocalTest/:${GUEST_IS_HOME}/packages/AmpItemMasterPubLocalTest/
+      # Dependency
+      - ${XCEIDOCS_PACKAGE_LOCATION}:${GUEST_IS_HOME}/packages/XCEIDocs/
       # Template code
       - ../../code/is-packages/SagServiceMockup/:${GUEST_IS_HOME}/packages/SagServiceMockup/
       - ../../code/is-packages/SagServiceMockupLocalTest/:${GUEST_IS_HOME}/packages/SagServiceMockupLocalTest/
