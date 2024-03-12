@@ -676,7 +676,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -686,7 +686,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/ItemMasterObject;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical" TO="/document;2;0">
+<MAPCOPY FROM="/ItemMasterObject;4;0;XC.EIDocs.ERP:ItemMasterCanonical" TO="/document;2;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/documentTypeName;1;0">
@@ -811,7 +811,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -982,7 +982,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -1097,7 +1097,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -1348,7 +1348,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1529,7 +1529,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1657,7 +1657,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1798,7 +1798,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2027,7 +2027,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -2166,7 +2166,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -2179,7 +2179,7 @@
 <MAPDELETE FIELD="/locals;2;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/ItemMasterObject;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical">
+<MAPDELETE FIELD="/ItemMasterObject;4;0;XC.EIDocs.ERP:ItemMasterCanonical">
 </MAPDELETE>
 </MAP>
 </FLOW>

@@ -78,7 +78,7 @@
           <value name="is_global">false</value>
           <value name="rec_closed">true</value>
           <value name="modifiable">true</value>
-          <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+          <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
         </record>
       </array>
       <value name="modifiable">true</value>

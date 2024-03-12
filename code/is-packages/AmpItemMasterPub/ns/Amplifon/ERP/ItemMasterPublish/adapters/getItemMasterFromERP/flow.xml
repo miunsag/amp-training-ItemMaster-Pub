@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -60,7 +61,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterCanonical</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -118,10 +119,10 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/itemMasterId;1;0" TO="/ItemMasterObject;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/itemMasterId;1;0">
+<MAPCOPY FROM="/itemMasterId;1;0" TO="/ItemMasterObject;4;0;XC.EIDocs.ERP:ItemMasterCanonical/itemMasterId;1;0">
 </MAPCOPY>
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/ItemMasterObject;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/name;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/ItemMasterObject;4;0;XC.EIDocs.ERP:ItemMasterCanonical/name;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">

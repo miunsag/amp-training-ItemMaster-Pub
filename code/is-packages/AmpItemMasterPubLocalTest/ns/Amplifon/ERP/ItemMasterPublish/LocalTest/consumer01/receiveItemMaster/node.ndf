@@ -33,7 +33,7 @@
         <value name="type">simple</value>
         <record name="data" javaclass="com.wm.util.Values">
           <record name="messageTypeFilterPair" javaclass="com.wm.util.Values">
-            <value name="messageType">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+            <value name="messageType">XC.EIDocs.ERP:ItemMasterPublishable</value>
             <value name="filter"></value>
           </record>
           <value name="serviceName">Amplifon.ERP.ItemMasterPublish.LocalTest.consumer01:processItemMaster</value>

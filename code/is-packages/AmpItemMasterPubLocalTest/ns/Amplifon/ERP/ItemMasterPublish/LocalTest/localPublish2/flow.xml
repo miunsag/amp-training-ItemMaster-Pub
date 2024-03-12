@@ -31,7 +31,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -88,7 +88,7 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
@@ -203,7 +203,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -340,7 +340,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -434,7 +434,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -672,7 +672,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -696,7 +696,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable/PublishedItemMaster;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/vendors;2;1" TO="/toList;2;1">
+<MAPCOPY FROM="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable/PublishedItemMaster;4;0;XC.EIDocs.ERP:ItemMasterCanonical/vendors;2;1" TO="/toList;2;1">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/fromItem;2;0/vendorPartyId;1;0">
@@ -886,7 +886,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -984,7 +984,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/toList;2;1" TO="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable/PublishedItemMaster;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/vendors;2;1">
+<MAPCOPY FROM="/toList;2;1" TO="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable/PublishedItemMaster;4;0;XC.EIDocs.ERP:ItemMasterCanonical/vendors;2;1">
 </MAPCOPY>
 
 <MAPDELETE FIELD="/toList;2;1">
@@ -1026,7 +1026,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1131,7 +1131,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1235,10 +1235,10 @@
 </DATA>
 </MAPSET>
 
-<MAPCOPY FROM="/locals;2;0/currentIsoDate;1;0" TO="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable/PublishedItemMaster;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/vendors;2;0/qualificationDate;1;0">
+<MAPCOPY FROM="/locals;2;0/currentIsoDate;1;0" TO="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable/PublishedItemMaster;4;0;XC.EIDocs.ERP:ItemMasterCanonical/vendors;2;0/qualificationDate;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/locals;2;0/currentIsoDateTime;1;0" TO="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable/PublishedItemMaster;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/vendors;2;0/lastDeliveryTimestamp;1;0">
+<MAPCOPY FROM="/locals;2;0/currentIsoDateTime;1;0" TO="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable/PublishedItemMaster;4;0;XC.EIDocs.ERP:ItemMasterCanonical/vendors;2;0/lastDeliveryTimestamp;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -1293,7 +1293,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1657,7 +1657,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1812,7 +1812,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1907,7 +1907,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable/PublishedItemMaster;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/vendors;2;0" TO="/fromItem;2;0">
+<MAPCOPY FROM="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable/PublishedItemMaster;4;0;XC.EIDocs.ERP:ItemMasterCanonical/vendors;2;0" TO="/fromItem;2;0">
 </MAPCOPY>
 
 <MAPCOPY FROM="/locals;2;0/goodVendors;2;1" TO="/toList;2;1">
@@ -1954,7 +1954,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2126,7 +2126,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2246,7 +2246,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2330,10 +2330,10 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable/PublishedItemMaster;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/vendors;2;1" TO="/locals;2;0/originalVendors;2;1">
+<MAPCOPY FROM="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable/PublishedItemMaster;4;0;XC.EIDocs.ERP:ItemMasterCanonical/vendors;2;1" TO="/locals;2;0/originalVendors;2;1">
 </MAPCOPY>
 
-<MAPCOPY FROM="/locals;2;0/goodVendors;2;1" TO="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable/PublishedItemMaster;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/vendors;2;1">
+<MAPCOPY FROM="/locals;2;0/goodVendors;2;1" TO="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable/PublishedItemMaster;4;0;XC.EIDocs.ERP:ItemMasterCanonical/vendors;2;1">
 </MAPCOPY>
 </MAP>
 
@@ -2363,7 +2363,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2408,7 +2408,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2461,7 +2461,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2506,7 +2506,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2549,7 +2549,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable/PublishedItemMaster;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/vendors;2;0/vendorPartyId;1;0" TO="/num1;1;0">
+<MAPCOPY FROM="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable/PublishedItemMaster;4;0;XC.EIDocs.ERP:ItemMasterCanonical/vendors;2;0/vendorPartyId;1;0" TO="/num1;1;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/num2;1;0">
@@ -2577,7 +2577,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/value;1;0" TO="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable/PublishedItemMaster;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterCanonical/vendors;2;0/vendorPartyId;1;0">
+<MAPCOPY FROM="/value;1;0" TO="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable/PublishedItemMaster;4;0;XC.EIDocs.ERP:ItemMasterCanonical/vendors;2;0/vendorPartyId;1;0">
 </MAPCOPY>
 </MAP>
 </MAPINVOKE>
@@ -2691,7 +2691,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2715,7 +2715,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable" TO="/document;2;0">
+<MAPCOPY FROM="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable" TO="/document;2;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/documentTypeName;1;0">
@@ -2789,7 +2789,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>

@@ -31,7 +31,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -59,7 +59,7 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
@@ -226,7 +226,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -236,7 +236,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable" TO="/document;2;0">
+<MAPCOPY FROM="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable" TO="/document;2;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/documentTypeName;1;0">
@@ -310,7 +310,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -452,7 +452,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -462,7 +462,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/docToPublish;4;0;Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable" TO="/document;2;0">
+<MAPCOPY FROM="/docToPublish;4;0;XC.EIDocs.ERP:ItemMasterPublishable" TO="/document;2;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/documentTypeName;1;0">
@@ -536,7 +536,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Amplifon.ERP.ItemMasterPublish.doc:ItemMasterPublishable</value>
+        <value name="rec_ref">XC.EIDocs.ERP:ItemMasterPublishable</value>
       </record>
     </array>
     <value name="modifiable">true</value>
